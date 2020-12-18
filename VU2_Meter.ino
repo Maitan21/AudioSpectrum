@@ -45,7 +45,7 @@ int
   minLvlAvg = 0,      // For dynamic adjustment of graph low & high
   maxLvlAvg = 512;
 
-  int brightnessValue, prevBrightnessValue;
+int brightnessValue, prevBrightnessValue;
 int sensorDeviationBrightness = 1;
 int sensitivityValue = 128;                               // 0 - 255, initial value (value read from the potentiometer if useSensorValues = true)
 int maxSensitivity = 2 * 255;                             // let the 'volume' go up to 200%!
